@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css";
 import WeatherForecast from "./components/WeatherForecast";
 
 const App = () => {
@@ -42,7 +43,7 @@ const App = () => {
 
   return (
     <>
-      <h1 className="my-3 text-center">Local Weather</h1>
+      <h1 className="centered">Local Weather</h1>
       <section>
         {weatherForecasts.map((item, idx) => {
           console.log(`${item.img}`);
