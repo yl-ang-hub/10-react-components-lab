@@ -1,5 +1,6 @@
 section {
   display: flex;
+  margin: 100px;
 }
 
 section .weather {

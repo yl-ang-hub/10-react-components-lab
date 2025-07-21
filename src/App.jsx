@@ -42,7 +42,7 @@ const App = () => {
 
   return (
     <>
-      <h1>Local Weather</h1>
+      <h1 className="my-4 text-center">Local Weather</h1>
       <section>
         {weatherForecasts.map((item, idx) => {
           console.log(`${item.img}`);
